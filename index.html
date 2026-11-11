@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
+<title>徽檐巷 · 开业全案（可落地版）</title>
+<style>
+:root{--ink:#12100c;--g1:#2b2118;--g2:#4a3a26;--gold:#c9a227;--gold2:#e8c97a;--ember:#c0392b;--sand:#f8f4ea;--paper:#fdfbf4;--line:#e6ddc8;--txt:#3f3a30;--mute:#8b8375}
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif;background:var(--ink);color:var(--txt);line-height:1.6;padding:0 0 40px}
+.wrap{max-width:520px;margin:0 auto;background:var(--paper);overflow:hidden}
+.cover{background:linear-gradient(165deg,#241c14,#4a3a26 70%,#6b5232);padding:40px 24px 34px;color:#fff;position:relative;overflow:hidden}
+.cover::before{content:"";position:absolute;inset:0;background-image:radial-gradient(circle,rgba(232,201,122,.35) 1px,transparent 1.3px);background-size:30px 30px;opacity:.22}
+.cover .k{position:relative;font-size:10px;letter-spacing:.36em;color:var(--gold2);margin-bottom:12px}
+.cover h1{position:relative;font-size:27px;font-weight:800;letter-spacing:.03em;line-height:1.3}
+.cover .s{position:relative;font-size:12px;color:rgba(255,255,255,.68);margin-top:9px;line-height:1.75}
+.cover .tags{position:relative;margin-top:14px;display:flex;gap:6px;flex-wrap:wrap}
+.cover .tags span{font-size:10px;padding:3px 9px;border-radius:20px;border:1px solid rgba(232,201,122,.5);color:var(--gold2)}
+.sec{padding:28px 20px 4px}
+.chap{display:flex;align-items:center;gap:9px;margin-bottom:13px}
+.chap .n{font-size:10.5px;font-weight:800;color:var(--gold);border:1px solid rgba(201,162,39,.45);border-radius:4px;padding:2px 6px;flex:none}
+.chap h2{font-size:17px;font-weight:800;color:var(--g1);line-height:1.35}
+.chap .sub{font-size:10px;color:var(--mute);margin-left:auto;flex:none}
+p{font-size:13.4px;line-height:1.85;color:var(--txt);margin-bottom:8px}
+p b{color:#8a5a18}
+.muted{font-size:11.6px;color:var(--mute);line-height:1.7}
+.card{background:var(--sand);border-radius:12px;padding:14px 13px;margin-bottom:10px}
+.card.dark{background:linear-gradient(150deg,#241c14,#4a3a26);color:#fff}
+.card.dark p{color:rgba(255,255,255,.85)}
+.card.dark b{color:var(--gold2)}
+table{width:100%;border-collapse:collapse;margin:8px 0;font-size:11.8px;table-layout:fixed}
+th,td{border:1px solid #e0d6bf;padding:6px;text-align:left;vertical-align:top;line-height:1.55;word-break:break-word}
+th{background:#efe8d6;color:var(--g1);font-weight:700}
+td b{color:#8a5a18}
+.act{background:#fff;border:1px solid var(--line);border-radius:12px;padding:14px;margin-bottom:10px}
+.act .hd{display:flex;align-items:center;gap:9px;margin-bottom:9px}
+.act .hd .no{width:22px;height:22px;border-radius:50%;background:var(--g1);color:var(--gold2);font-size:11px;font-weight:800;display:flex;align-items:center;justify-content:center;flex:none}
+.act .hd .t{font-size:13.5px;font-weight:800;color:var(--g1)}
+.act .hd .tm{margin-left:auto;font-size:9.8px;color:var(--ember);font-weight:700;flex:none}
+.step{display:flex;gap:8px;font-size:12px;line-height:1.7;color:var(--txt);padding:3px 0}
+.step .k{flex:none;color:var(--mute);width:52px;font-size:11px}
+.warn{background:#fdece8;border-left:3px solid var(--ember);padding:9px 11px;border-radius:0 8px 8px 0;margin:9px 0;font-size:11.8px;line-height:1.8;color:#6b3a32}
+.warn b{color:var(--ember)}
+.hl{background:#fdf6e3;border-left:3px solid var(--gold);padding:9px 11px;border-radius:0 8px 8px 0;margin:9px 0;font-size:12px;line-height:1.8;color:#5a4a32}
+.hl b{color:#8a5a18}
+.pull{border-left:2px solid var(--ember);padding:2px 0 2px 12px;margin:11px 0;font-size:13.2px;line-height:1.85;color:#5c4a38}
+.pull b{color:#a54f22}
+.nums{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:12px 0 4px}
+.nc{background:linear-gradient(150deg,#241c14,#4a3a26);border-radius:11px;padding:13px 11px}
+.nc .v{font-size:23px;font-weight:800;color:var(--gold2);line-height:1.1}
+.nc .v small{font-size:11px;font-weight:600}
+.nc .l{font-size:10.5px;color:rgba(255,255,255,.6);margin-top:4px;line-height:1.5}
+.tl{position:relative;margin:12px 0 4px}
+.tl::before{content:"";position:absolute;left:5px;top:6px;bottom:8px;width:1px;background:var(--line)}
+.tl .i{position:relative;padding:0 0 12px 20px;font-size:11.8px;line-height:1.55}
+.tl .i::before{content:"";position:absolute;left:1px;top:5px;width:8px;height:8px;border-radius:50%;background:var(--paper);border:2px solid var(--g2)}
+.tl .i.key::before{background:var(--ember);border-color:var(--ember)}
+.tl .i b{color:var(--g1)}
+.ck{display:grid;grid-template-columns:1fr;gap:5px;margin:8px 0}
+.ck .r{display:flex;gap:8px;background:#fff;border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:11.6px;line-height:1.5}
+.ck .r .b{flex:none;width:14px;height:14px;border:1.5px solid #c9bfa5;border-radius:3px;margin-top:1px}
+.ck .r .x{color:var(--mute);font-size:10.2px;display:block;margin-top:1px}
+.pit{display:flex;gap:10px;padding:11px 0;border-bottom:1px solid var(--line)}
+.pit:last-child{border-bottom:none}
+.pit .no{flex:none;font-size:14px;font-weight:800;color:#d9cfb4;width:19px}
+.pit .c .t{font-size:12.4px;font-weight:800;color:var(--g1);line-height:1.45}
+.pit .c .d{font-size:11.2px;color:var(--txt);margin-top:3px;line-height:1.7}
+.tier{background:#fff;border:1px solid var(--line);border-radius:10px;padding:11px 12px;margin-bottom:7px;position:relative;overflow:hidden}
+.tier::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3px;background:var(--g2)}
+.tier.b::before{background:#b9a86a}
+.tier.c::before{background:var(--ember)}
+.tier .h{font-size:12.2px;font-weight:800;color:var(--g1)}
+.tier .h span{font-size:9.8px;color:var(--mute);font-weight:700;margin-left:5px}
+.tier .d{font-size:11.2px;color:var(--txt);margin-top:3px;line-height:1.65}
+.foot{background:linear-gradient(160deg,#241c14,#4a3a26);color:rgba(255,255,255,.5);padding:18px;text-align:center;font-size:10.2px;line-height:1.9}
+.foot b{color:var(--gold2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<div class="cover">
+  <div class="k">OPENING PLAYBOOK · 可落地版</div>
+  <h1>徽檐巷 · 开业全案</h1>
+  <div class="s">浇头面 · 馄饨 · 粿 ｜ 生态城 ｜ 60–80㎡<br>一家三口带娃经营，先做不花钱的流量</div>
+  <div class="tags"><span>券包 5 张</span><span>每日抽奖</span><span>五倍当餐免</span><span>30 天节奏</span></div>
+</div>
+
+<!-- 00 -->
+<div class="sec">
+  <div class="chap"><span class="n">00</span><h2>一页看懂</h2></div>
+  <div class="nums">
+    <div class="nc"><div class="v">4.3<small>分</small></div><div class="l">生态城面食评分天花板<br>四喜面馆</div></div>
+    <div class="nc"><div class="v">17–22<small>元</small></div><div class="l">片区主流人均<br>你定 22–26</div></div>
+    <div class="nc"><div class="v">5<small>张</small></div><div class="l">开业券包<br>让利率 13–16%</div></div>
+    <div class="nc"><div class="v">2000<small>元</small></div><div class="l">30 天活动总成本<br>占流水 6–8%</div></div>
+  </div>
+  <div class="pull">
+    这家店不需要“火”，需要“稳”。<b>60–80㎡、一家三口带娃，做不了复杂玩法</b>——只做三件事：把粿讲明白、把评分做到 4.3、把来过的人拉进群。
+  </div>
+</div>
+
+<!-- 01 -->
+<div class="sec">
+  <div class="chap"><span class="n">01</span><h2>先看清你在跟谁抢客</h2><span class="sub">生态城</span></div>
+  <p>生态城的面食盘子，线上已经有一批做得不错的店，但评分普遍不高——<b>4.3 分就是天花板</b>。</p>
+  <table>
+    <tr><th style="width:40%">门店</th><th style="width:22%">评分/评价</th><th>人均</th></tr>
+    <tr><td><b>四喜面馆</b></td><td><b>4.3 / 35</b></td><td>22</td></tr>
+    <tr><td>满分翠花牛肉粉面</td><td>4.1 / 64</td><td>17</td></tr>
+    <tr><td>二姑包子（珊瑚海）</td><td>3.9 / <b>177</b></td><td>13</td></tr>
+    <tr><td>糊涂婶麻辣烫</td><td>3.9 / 14</td><td>22</td></tr>
+    <tr><td>三宝馄饨（生态城店）</td><td>3.8 / <b>110</b></td><td>18</td></tr>
+    <tr><td>吉祥馄饨（万达店）</td><td>3.8 / 18</td><td>25</td></tr>
+    <tr><td>顽皮馄饨铺</td><td>3.5 / 9</td><td>19</td></tr>
+  </table>
+  <div class="hl"><b>三个结论：</b><br>
+  ① <b>价格带是 13–25，主流 17–22。</b>你定 22–26 能站住，超过 30 会被比价。<br>
+  ② <b>4.3 分就是天花板</b>，做到 4.3 直接进第一梯队，不用拼价格。<br>
+  ③ <b>二姑包子 177 条、三宝馄饨 110 条</b>说明这片客人是愿意写评价的——你缺的不是客人，是“有人提醒他写”。</div>
+  <p><b>你的差异化只有一个：粿。</b>整片区搜不到第二家卖粿的。这既是机会也是风险——<b>没人认识的东西，不打认知就卖不动。</b></p>
+</div>
+
+<!-- 02 -->
+<div class="sec">
+  <div class="chap"><span class="n">02</span><h2>产品与定价</h2></div>
+  <table>
+    <tr><th style="width:30%">品类</th><th style="width:26%">建议售价</th><th>说明</th></tr>
+    <tr><td><b>浇头面</b></td><td>18–26</td><td>主力，出餐 8–10 分钟</td></tr>
+    <tr><td><b>馄饨</b></td><td>15–22</td><td>第二主力，可做外卖</td></tr>
+    <tr><td><b>粿</b></td><td>12–18</td><td><b>招牌，必须做试吃</b></td></tr>
+    <tr><td>小菜 / 卤味</td><td>6–10</td><td>提客单，毛利高</td></tr>
+    <tr><td><b>人均目标</b></td><td><b>22–26</b></td><td>比片区主流高 3–5 元，靠粿和品质撑</td></tr>
+  </table>
+  <div class="warn"><b>粿的认知成本是这家店最大的隐形门槛。</b>天津客人不知道粿是什么，第一次进店不会点。<b>开业前 30 天，每桌免费送一小块试吃</b>，成本 2 元，比任何广告都有效。</div>
+</div>
+
+<!-- 03 -->
+<div class="sec">
+  <div class="chap"><span class="n">03</span><h2>开业前 14 天：谁做什么</h2><span class="sub">清单</span></div>
+  <div class="ck">
+    <div class="r"><span class="b"></span><span><b>D-14 · 激活商家账号</b>（老板）<span class="x">先激活、后配置，支付可暂不开通</span></span></div>
+    <div class="r"><span class="b"></span><span><b>D-12 · 菜单定稿</b>（老板）<span class="x">SKU 控制在 18 个以内：面 5、馄饨 4、粿 3、小菜 6</span></span></div>
+    <div class="r"><span class="b"></span><span><b>D-12 · 系统安装 + 菜品录入</b>（BD/技服）<span class="x">品名、规格、加料、可否打包、走哪个档口</span></span></div>
+    <div class="r"><span class="b"></span><span><b>D-10 · 拍素材</b>（老板）<span class="x">粿的制作过程、面出锅、门头；手机拍就够</span></span></div>
+    <div class="r"><span class="b"></span><span><b>D-7 · 建群</b>（老板娘）<span class="x">目标 200 人：邻居、业主群、周边小店老板</span></span></div>
+    <div class="r"><span class="b"></span><span><b>D-5 · 试营业</b>（全家）<span class="x">只请熟人，重点测出餐速度，不对外</span></span></div>
+    <div class="r"><span class="b"></span><span><b>D-3 · 券包上线</b>（BD）<span class="x">500 份，开始群发 + 门口贴码</span></span></div>
+    <div class="r"><span class="b"></span><span><b>D-1 · 抽奖上线</b>（BD/老板娘）<span class="x">群里发第一条抽奖链接</span></span></div>
+  </div>
+  <p class="muted">带 1 岁半孩子的家庭店，真实可动人力是 1.5–2 个人。<b>上面 8 项里，BD 能承担 3 项（账号、系统、活动配置），剩下 5 项必须老板夫妻分掉</b>——所以不要再加动作了。</p>
+</div>
+
+<!-- 04 -->
+<div class="sec">
+  <div class="chap"><span class="n">04</span><h2>活动一：开业券包</h2><span class="sub">30天</span></div>
+  <div class="act">
+    <div class="hd"><span class="no">A</span><span class="t">5 张券，500 份</span><span class="tm">D-3 上线</span></div>
+    <div class="step"><span class="k">发放</span><span>开业前 3 天起，开业后 14 天停止</span></div>
+    <div class="step"><span class="k">有效期</span><span>领券起 30 天（首单券单独 7 天）</span></div>
+    <div class="step"><span class="k">限领</span><span>每人 1 份，<b>每单限用 1 张</b></span></div>
+  </div>
+  <table>
+    <tr><th style="width:26%">券名</th><th style="width:14%">面额</th><th style="width:16%">门槛</th><th style="width:14%">让利率</th><th>目的</th></tr>
+    <tr><td><b>首单券</b></td><td>4 元</td><td>满 25</td><td>16%</td><td>拉首单（7 天）</td></tr>
+    <tr><td><b>双人券</b></td><td>7 元</td><td>满 50</td><td>14%</td><td>提客单</td></tr>
+    <tr><td><b>三人券</b></td><td>11 元</td><td>满 80</td><td>14%</td><td>拉多人</td></tr>
+    <tr><td><b>粿兑换券</b></td><td>免 1 份</td><td>满 30</td><td>13%</td><td><b>品类认知</b></td></tr>
+    <tr><td><b>带友券</b></td><td>15 元</td><td>满 100</td><td>15%</td><td>拉新（3 人以上）</td></tr>
+  </table>
+  <div class="hl"><b>门槛为什么是 25 / 50 / 80 / 30 / 100：</b>按人均 22 算，单人吃 22、双人 45、三人 70、四人 90。门槛都卡在“正常客单 + 15~20%”——<b>差的那几块钱，正好是一份小菜，客人会为了用券多点一道，而不是白拿你的毛利。</b></div>
+  <div class="warn"><b>成本：</b>500 份，按 35% 核销、平均让利 6 元算，约 <b>1050 元</b>。</div>
+</div>
+
+<!-- 05 -->
+<div class="sec">
+  <div class="chap"><span class="n">05</span><h2>活动二：社群每日抽奖</h2><span class="sub">30天</span></div>
+  <div class="act">
+    <div class="hd"><span class="no">B</span><span class="t">每天 1 次，100% 中奖</span><span class="tm">D-1 上线</span></div>
+    <div class="step"><span class="k">参与</span><span>群内点链接，<b>不要求转发、不要求集赞</b></span></div>
+    <div class="step"><span class="k">中奖</span><span>100% 有奖，最低 2 元券</span></div>
+    <div class="step"><span class="k">有效期</span><span>中奖起 <b>7 天</b></span></div>
+  </div>
+  <table>
+    <tr><th style="width:22%">奖项</th><th style="width:38%">奖品</th><th style="width:18%">份数</th><th>成本/天</th></tr>
+    <tr><td><b>特等奖</b></td><td>单人免单（限 1 份主食）</td><td>每周 1 份</td><td>3.6 元</td></tr>
+    <tr><td><b>一等奖</b></td><td>招牌粿 1 份</td><td>每天 3 份</td><td>12 元</td></tr>
+    <tr><td><b>二等奖</b></td><td>5 元券（满 25）</td><td>每天 8 份</td><td>8 元</td></tr>
+    <tr><td><b>三等奖</b></td><td>2 元无门槛券</td><td>每天 20 份</td><td>8 元</td></tr>
+  </table>
+  <p class="muted">每天约 30–32 元，30 天约 <b>960 元</b>。买的是“群每天有人冒泡”——群死了，后面所有活动都推不动。</p>
+</div>
+
+<!-- 06 -->
+<div class="sec">
+  <div class="chap"><span class="n">06</span><h2>活动三：消费五倍当餐免</h2><span class="sub">15天</span></div>
+  <div class="act">
+    <div class="hd"><span class="no">C</span><span class="t">储值锁客</span><span class="tm">D1–D15</span></div>
+    <div class="step"><span class="k">门槛</span><span>当餐满 <b>40 元</b> 可参与</span></div>
+    <div class="step"><span class="k">规则</span><span>储值 = 当餐 × 5，<b>当餐免单</b></span></div>
+    <div class="step"><span class="k">上限</span><span>单笔免单最高 <b>80 元</b></span></div>
+    <div class="step"><span class="k">互斥</span><span>不与代金券、团购券同用</span></div>
+  </div>
+  <table>
+    <tr><th style="width:34%">当餐消费</th><th style="width:32%">储值金额</th><th>当餐实付</th></tr>
+    <tr><td>40 元</td><td>200 元</td><td><b>0 元（免单）</b></td></tr>
+    <tr><td>55 元</td><td>275 元</td><td><b>0 元（免单）</b></td></tr>
+    <tr><td>80 元及以上</td><td>400 元</td><td><b>0 元（免单，封顶 80）</b></td></tr>
+  </table>
+  <p>换算下来是 <b>8.3 折</b>，但钱先收进来了，客人一定会再来。<b>门槛设 40 而不是 50</b>——双人正常吃 45，设 50 会卡掉一半。</p>
+  <div class="warn"><b>三条必须提醒：</b><br>
+  ① 这是<b>预收款不是收入</b>，单独记一本账，不能拿去补装修。<br>
+  ② 储 200 元按人均 20 算要吃 <b>10 次</b>，必须开余额提醒。<br>
+  ③ <b>15 天后必须停</b>，切常规储值（充 100 送 15 或送一份粿）。</div>
+</div>
+
+<!-- 07 -->
+<div class="sec">
+  <div class="chap"><span class="n">07</span><h2>三项活动怎么错开，别打架</h2></div>
+  <table>
+    <tr><th style="width:26%">时间</th><th style="width:22%">券包</th><th style="width:22%">抽奖</th><th>五倍储值</th></tr>
+    <tr><td>D-3 到 D-1</td><td><b>发放</b></td><td>—</td><td>—</td></tr>
+    <tr><td>D1 开业</td><td>可用</td><td><b>上线</b></td><td><b>启动</b></td></tr>
+    <tr><td>D1–D15</td><td>可用</td><td>每日</td><td><b>进行中</b></td></tr>
+    <tr><td>D16–D30</td><td>可用</td><td>每日</td><td>切常规储值</td></tr>
+    <tr><td>D31 起</td><td>停发</td><td>停</td><td>常规</td></tr>
+  </table>
+  <div class="warn"><b>后台必须设三条互斥：</b><br>
+  ① 券包与五倍储值<b>不可同单使用</b><br>
+  ② 每单<b>限用 1 张券</b>（否则 5 张全用，一桌少 48 元）<br>
+  ③ 抽奖券有效期 7 天，过期作废不补</div>
+</div>
+
+<!-- 08 -->
+<div class="sec">
+  <div class="chap"><span class="n">08</span><h2>线上：先吃免费流量</h2></div>
+  <div class="card dark">
+    <p style="margin-bottom:6px"><b>老板在小红书上被“不投流就没流量”坑过，这个心理要照顾。</b></p>
+    <p style="margin-bottom:0">所以这家店的顺序是：<b>先把不花钱的吃干净——评价、社群、团购、门口。</b>付费投流放到第 2 个月，用数据说话，不用话术。</p>
+  </div>
+  <table>
+    <tr><th style="width:26%">渠道</th><th style="width:20%">角色</th><th>做什么</th></tr>
+    <tr><td><b>美团/点评</b></td><td>主战场</td><td>建店、12 张图、3 个套餐、评价引导、买单优惠</td></tr>
+    <tr><td><b>微信群</b></td><td>复购引擎</td><td>每日抽奖、开业券包、每周一道“今日现做”</td></tr>
+    <tr><td><b>抖音</b></td><td>内容</td><td>只拍三条：粿的制作、面出锅、门头。不投流</td></tr>
+    <tr><td><b>小红书</b></td><td>可选</td><td>用老板原有的账号发一篇，不投流、不买达人</td></tr>
+    <tr><td><b>高德</b></td><td>兜底</td><td>认领门店、补图、写清门牌</td></tr>
+  </table>
+  <p class="muted">投放预算：<b>第一个月 0 元</b>。第二个月起每月 800–1500，只投点评 3 公里、只在午市前 1.5 小时，考核线“1 元广告 ≥3 元实收”，达不到就停。</p>
+</div>
+
+<!-- 09 -->
+<div class="sec">
+  <div class="chap"><span class="n">09</span><h2>30 天节奏</h2></div>
+  <div class="tl">
+    <div class="i"><b>D-7 到 D-1</b> 建群 200 人 · 券包上线 · 试营业测出餐</div>
+    <div class="i key"><b>D1–D7</b> 开业周：每桌送粿试吃 · 吃到一半引导评价 · 五倍储值启动</div>
+    <div class="i"><b>D8–D15</b> 评价冲到 30 条 · 抽奖日常化 · 五倍储值收尾</div>
+    <div class="i"><b>D16–D30</b> 切常规储值 · 加“老带新” · 复盘活动数据</div>
+    <div class="i key"><b>D30 复盘只看三个数</b> 评分 ≥4.3 ｜ 群 ≥300 人 ｜ 储值 ≥50 人</div>
+  </div>
+  <div class="hl"><b>为什么第 30 天才看这三个数：</b>开业第一周的数字都不作数，有新鲜感和亲友捧场。<b>第 30 天的数字才是这家店真实的水平。</b></div>
+</div>
+
+<!-- 10 -->
+<div class="sec">
+  <div class="chap"><span class="n">10</span><h2>按真实人手定版本</h2></div>
+  <div class="tier">
+    <div class="h">A 满配版 <span>2 个大人 + 1 个帮工</span></div>
+    <div class="d">面 + 馄饨 + 粿 全上，五项活动全做。这是目标状态。</div>
+  </div>
+  <div class="tier b">
+    <div class="h">B 标准版 <span>2 个大人</span></div>
+    <div class="d"><b>粿只做一款</b>，砍掉复杂浇头。五倍储值照做，抽奖降到每天 1 档奖。</div>
+  </div>
+  <div class="tier c">
+    <div class="h">C 最低版 <span>1 个大人 + 钟点工</span></div>
+    <div class="d">只做面 + 馄饨，粿改成“周末限定”。<b>活动只保留券包</b>，抽奖和储值全部推迟。</div>
+  </div>
+  <p class="muted">带 1 岁半孩子的家庭店，<b>不要按“理想人力”排活动</b>。活动越多，执行打折越狠——三件事做到位，比八件事做一半强。</p>
+</div>
+
+<!-- 11 -->
+<div class="sec">
+  <div class="chap"><span class="n">11</span><h2>五个坑</h2></div>
+  <div class="pit"><div class="no">01</div><div class="c"><div class="t">粿不做试吃，一定卖不动</div><div class="d">天津人不知道粿是什么。免费一小块的成本 2 元，是这家店最值的投入。</div></div></div>
+  <div class="pit"><div class="no">02</div><div class="c"><div class="t">券发太多、全核销，月底对账会心疼</div><div class="d">500 份是上限，不要因为“多领点热闹”加到 1000 份。每单限 1 张必须设。</div></div></div>
+  <div class="pit"><div class="no">03</div><div class="c"><div class="t">五倍储值的钱挪去补装修</div><div class="d">这是预收款，挪用后客人来吃就是纯亏。必须单独记账。</div></div></div>
+  <div class="pit"><div class="no">04</div><div class="c"><div class="t">群里只发广告，不发别的</div><div class="d">群会死。每天抽奖占一半，另一半发“今天做了什么”“明天有什么”，有人味才留得住。</div></div></div>
+  <div class="pit"><div class="no">05</div><div class="c"><div class="t">开业第一周就投流</div><div class="d">评价还是空的，投进来的人看一眼就走。第一批钱花在“让人写评价”上，不花在“让人看见”上。</div></div></div>
+</div>
+
+<!-- 12 -->
+<div class="sec">
+  <div class="chap"><span class="n">12</span><h2>需要确认的四件事</h2></div>
+  <div class="ck">
+    <div class="r"><span class="b"></span><span>粿的单价定多少？<span class="x">决定兑换券门槛和试吃份量</span></span></div>
+    <div class="r"><span class="b"></span><span>实际能出几个人？<span class="x">决定走 A/B/C 哪一档</span></span></div>
+    <div class="r"><span class="b"></span><span>支付什么时候能开通？<span class="x">券包和抽奖可先上，五倍储值要等支付</span></span></div>
+    <div class="r"><span class="b"></span><span>门头什么时候能装完？<span class="x">决定第一条抖音什么时候拍</span></span></div>
+  </div>
+</div>
+
+<div class="foot">
+  竞品数据来源：美团 / 点评前台公示（2026.11 核）<br>
+  活动让利与营收为结构性测算，<b>非承诺值</b><br><br>
+  <b>徽檐巷 · 开业全案（可落地版）</b>
+</div>
+
+</div>
+</body>
+</html>
